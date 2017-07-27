@@ -10,8 +10,14 @@
 * Review HTTP response/ request lifecycle
 * Create our own simple Express app! -->
 
-#NPM Init and Package.json
+<!-- #NPM Init and Package.json
 
 * Use the '--save' flag to install packages
 * Explain what the package.json file does
-* Use 'npm init' to create a new package.json
+* Use 'npm init' to create a new package.json -->
+
+# More ROuting!
+
+* Show the '*' route matcher
+* Write routes containing route paramters
+* Discuss route order
