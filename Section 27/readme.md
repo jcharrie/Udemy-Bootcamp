@@ -10,3 +10,14 @@
 * What is MongoDB?
 * Why are we using it?
 * Let's install it!
+
+#Our First Mongo Commands
+* mongod
+* mongo
+* help
+* show dbs
+* use
+* insert
+* find
+* update
+* remove
