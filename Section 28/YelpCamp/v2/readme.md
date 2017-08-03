@@ -7,9 +7,6 @@ Each Campground has:
 * Name
 * Image
 
-
-
-
 #Layout and Basic Syling
 * Create our header and footer partials
 * Add in Bootstrap
@@ -27,3 +24,12 @@ Each Campground has:
 #Style the Navbar and Form
 * Add a navbar to all templates
 * Style the new campground form
+
+
+
+#v2
+
+#Add Mongoose
+* Install and configure mongoose
+* Setup campground model
+* Use campground model inside of our routes
