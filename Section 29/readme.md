@@ -43,3 +43,7 @@ CRUD:
 * Add Update Route
 * Add Update Form
 * Add Method-Override
+
+#DESTROY
+* ADD Destroy Route
+* ADD Edit and Destroy Links
