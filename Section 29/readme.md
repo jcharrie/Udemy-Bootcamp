@@ -47,3 +47,8 @@ CRUD:
 #DESTROY
 * ADD Destroy Route
 * ADD Edit and Destroy Links
+
+#FINAL UPDATES
+* Sanitize blog body
+* Style Index
+* Update REST Table
