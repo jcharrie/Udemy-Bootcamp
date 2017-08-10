@@ -13,22 +13,6 @@ app.set("view engine", "ejs");
 
 
 
-// Campground.create(
-//   {
-//     name: "Granite Hill",
-//     image: "https://farm8.staticflickr.com/7252/7626464792_3e68c2a6a5.jpg",
-//     description: "This is a huge granite hill, no bathrooms. No water. Beautiful granite!",
-//   },
-//   function(err, campground){
-//     if(err){
-//       console.log(err);
-//     } else{
-//       console.log("NEWLY CREATED CAMPGROUND: ");
-//       console.log(campground);
-//     }
-//   }
-// );
-
 app.get("/", function(req, res){
   res.render("landing");
 });
@@ -71,10 +55,11 @@ app.get("/campgrounds/new", function(req, res){
 // SHOW - shows more info about one campground
 app.get("/campgrounds/:id", function(req, res){
   // find the campgroudnd with provided ID
-  Campground.findById(req.params.id, function(err, foundCampground){
+  Campground.findById(req.params.id).populate("comments").exec(function(err, foundCampground){
     if(err){
       console.log(err);
     } else{
+      console.log(foundCampground);
       // render show template with that campgroudn
       res.render("show", {campground: foundCampground});
     }
