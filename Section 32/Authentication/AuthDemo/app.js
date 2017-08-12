@@ -1,11 +1,29 @@
-var express = require("express"),
-    mongoose = require("mongoose");
+var express                 = require("express"),
+    mongoose                = require("mongoose"),
+    passport                = require("passport"),
+    bodyParser              = require("body-parser"),
+    User                    = require("./models/user"),
+    LocalStrategy           = require("passport-local"),
+    passportLocalMongoose   = require("passport-local-mongoose");
 
 mongoose.Promise = global.Promise; 
 mongoose.connect("mongodb://localhost/auth_demo_app", {useMongoClient: true});
 
+
+
 var app = express();
 app.set('view engine', 'ejs');
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(require("express-session")({
+  secret: "This is the secret",
+  resave: false,
+  saveUninitialized: false
+}));
+
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+
 
 app.get("/", function(req, res){
   res.render("home");

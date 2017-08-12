@@ -14,3 +14,7 @@
 * Install needed packages
 * Add root route and template
 * Add secret route and template
+
+#Auth CodeALong Part 2
+* Create User model
+* Configure Passport
