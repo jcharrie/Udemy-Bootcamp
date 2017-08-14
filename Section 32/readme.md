@@ -23,6 +23,10 @@
 * Add Register routes
 * Add Register form
 
-#Auth CodeALong Part 4
+#Auth CodeAlong Part 4
 * Add Login routes
 * Add Login form
+
+#Auth CodeAlong Part 5
+* Add Logout Route
+* Add isLoggedIn midddleware
