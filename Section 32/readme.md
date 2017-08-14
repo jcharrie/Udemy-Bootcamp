@@ -18,3 +18,7 @@
 #Auth CodeALong Part 2
 * Create User model
 * Configure Passport
+
+#Auth CodeAlong Part 3
+* Add Register routes
+* Add Register form
