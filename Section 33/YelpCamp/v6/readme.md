@@ -100,6 +100,12 @@ CREATE    campgrounds/:id/comments           POST
 * Add register routes
 * Add register template
 
-##Auth Pt. 3 = Login
+##Auth Pt. 3 - Login
 * Add login routes
 * Add login template
+
+##Auth Pt. 4 - Logout/Navbar
+* Add logout route 
+* Prevent user from adding a comment if not signed in
+* Add links to navbar
+* SHow/hide auth links correctly
