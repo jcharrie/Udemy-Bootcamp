@@ -109,3 +109,6 @@ CREATE    campgrounds/:id/comments           POST
 * Prevent user from adding a comment if not signed in
 * Add links to navbar
 * SHow/hide auth links correctly
+
+## Auth Pt. 5 - Show/Hide Links
+* Show/hide auth links in navbar correctly
