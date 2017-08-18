@@ -15,11 +15,11 @@ var coummentRoutes   = require("./routes/comments"),
     indexRoutes  = require("./routes/index");
 
 mongoose.Promise = global.Promise; 
-mongoose.connect("mongodb://localhost/yelp_camp_v7", {useMongoClient: true});
+mongoose.connect("mongodb://localhost/yelp_camp_v8", {useMongoClient: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
-seedDB();
+// seedDB(); // seed the database
 
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
