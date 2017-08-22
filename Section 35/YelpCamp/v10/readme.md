@@ -123,3 +123,10 @@ CREATE    campgrounds/:id/comments           POST
 ##Users + Campgrounds
 * Prevent an unauthenticated user from creating a campground
 * Save username+id to newly created campground
+
+#Editng Campgrounds
+* Add Method-Override
+* Add Edit Route for Campgrounds
+* Add Link to Edit Page
+* Add Update Route
+* Fix set problem
