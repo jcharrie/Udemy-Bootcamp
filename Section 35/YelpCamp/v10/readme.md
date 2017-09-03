@@ -145,9 +145,16 @@ CREATE    campgrounds/:id/comments           POST
 * Add Edit button
 * Add Update route
 
+Campground Edit Route: <!--/campground/:id/edit-->
+Comment Edit Route: <!--/campground/:id/comments/:comment_id/edit-->
+
 #Deleting Comments
 * Add Destroy route
 * Add Delete button
+
+Campground Destroy Route: <!--/campground/:id-->
+Comment Destroy Route: <!--/campground/:id/comments/:comment_id/-->
+
 
 #Authorization Part 2: Comments
 * User can only edit his/her comments
