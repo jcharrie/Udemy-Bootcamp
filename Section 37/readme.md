@@ -9,5 +9,19 @@
 
 #Git Basics
 * Git init
+* Git status
 * Git add
 * Git commit
+
+#Git Checkout
+* Git Log
+* Git Checkout
+
+#Cloning and Github INtro
+* What is Github?
+* Cloning an existing repo
+
+#Pushing to Github
+* Creating a repo on github
+* Adding a remote
+* Pushing to github
