@@ -16,6 +16,7 @@
 #Git Checkout
 * Git Log
 * Git Checkout
+* git revert --no-commit######..HEAD
 
 #Cloning and Github INtro
 * What is Github?
